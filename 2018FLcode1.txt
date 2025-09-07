@@ -156,7 +156,7 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "<button onclick='credits()'>u/ShowRea7720</button>";
+campaignTrail_temp.credits = "<button onclick='credits()'>u/ShowReal7720</button>";
 
   credits = function() {
     c = ["This mod was created by u/ShowReal7720.", "Custom map was made by _mango", "Banner was made by E", "Code 1 coding assistance from themccain", "Thanks to everyone who playtested.", "And thank you for playing. We hope you enjoy/enjoyed."]
