@@ -207,6 +207,16 @@ jet_data = {
     "customQuote": ""
 }
 
+campaignTrail_temp.modBoxTheme = {
+     "header_color": "#ff6251",
+     "header_text_color": "#000000",
+     "description_text_color": "#000000",
+     "description_background_color": "#ffffff",
+     "main_color": "#ffc677",
+     "secondary_color": "#3a88fe",
+     "ui_text_color": "#FFFFFF"
+}
+
 //#startcode
 
 e.VpText = 'Please select your party here:';
