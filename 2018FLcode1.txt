@@ -156,7 +156,16 @@ campaignTrail_temp.running_mate_json = [
     }
 ]
 
-campaignTrail_temp.credits = "u/ShowReal7720, with a functional map from _mango"
+campaignTrail_temp.credits = "<button onclick='credits()'>u/ShowRea7720</button>";
+
+  credits = function() {
+    c = ["This mod was created by u/ShowReal7720.", "Custom map was made by _mango", "Banner was made by E", "Code 1 coding assistance from themccain", "Thanks to everyone who playtested.", "And thank you for playing. We hope you enjoy/enjoyed."]
+    text = "CREDITS:\n\n"
+    for (i in c) {
+        text += c[i] + "\n"
+    }
+    alert(text)
+  }
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -200,7 +209,7 @@ jet_data = {
 
 //#startcode
 
-
+e.VpText = 'Please select your party here:';
 
 nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#12af8d";
 
